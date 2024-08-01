@@ -1,0 +1,98 @@
+/* EmployeeList.css */
+.employee-list {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 20px;
+}
+
+h1 {
+  font-size: 27px;
+  color: #333;
+  margin-top: 20px;
+}
+
+.filters {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+}
+
+.icon {
+  color: brown;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+.country {
+  font-weight: 600;
+  font-size: 15px;
+  color: #333;
+  border-color: brown;
+  border: 1.4px solid brown;
+  border-radius: 4px;
+}
+
+.gender {
+  font-weight: 600;
+  font-size: 15px;
+  color: #333;
+  border-color: brown;
+  border: 1.4px solid brown;
+  border-radius: 4px;
+  width: 10%;
+}
+.filters select {
+  margin-left: 10px;
+  padding: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.employee-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  table {
+    font-size: 14px;
+  }
+
+  th,
+  td {
+    padding: 5px;
+  }
+
+  .employee-image {
+    width: 30px;
+    height: 30px;
+  }
+}
